@@ -14,7 +14,10 @@
     1. 概述脚手架实现的过程，并使用 NodeJS 完成一个自定义的小型脚手架工具  
     答：创建目录并初始化 ==> 安装yeoman-generator ==> 创建generators/app/index.js入口文件 ==> 入口文件中引入yeoman-generator模块 ==> 导出一个继承自yeoman-generator的类 ==> 在导出的类中通过继承自父类的一些生命周期方法实现脚手架具体功能，例如：文件写入，模板复制等 ==> 通过npm link链接到全局  
     脚手架地址：https://github.com/liubaihong/generator-sample.git
+	
+	2. 尝试使用Gulp完成项目的自动化构建  
+	答：仓库地址：https://github.com/liubaihong/my-gulp.git
 
-    2. 尝试使用Gulp完成项目的自动化构建  
+    3. 尝试使用grunt完成项目的自动化构建  
 	答：仓库地址：https://github.com/liubaihong/my-grunt.git
 
